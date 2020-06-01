@@ -169,7 +169,7 @@ options:
   suppress: true
   # Enable/disable GeoIP lookups
   # Startup of logagent might be slower, when downloading the GeoIP database
-  geoipEnabled: false
+  geoipEnabled: true
   # Directory to store Logagent status and temporary files
   # this is equals to LOGS_TMP_DIR env variable 
   diskBufferDir: /tmp/sematext-logagent
