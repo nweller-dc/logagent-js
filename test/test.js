@@ -85,6 +85,7 @@ describe('Logagent parse web server Log', function () {
               data.status_code === 200 &&
               data['@timestamp']
             ) {
+              console.log(data)
               done()
             } else {
               done(new Error('message is wrong: ' + JSON.stringify(data)))
